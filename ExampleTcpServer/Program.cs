@@ -62,9 +62,8 @@ namespace ExampleTcpServer
 
                 input = Console.ReadLine();
             }
-
-            _tcpServer.Close();
         }
+
         static private void HandleCommand(string? commandLine)
         {
             if (string.IsNullOrEmpty(commandLine)) return;

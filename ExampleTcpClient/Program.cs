@@ -75,8 +75,6 @@ namespace ExampleTcpClient
                     input = Console.ReadLine();
                 }
             }
-
-            Console.ReadKey();
         }
 
         static private void HandleCommand(string? commandLine)
